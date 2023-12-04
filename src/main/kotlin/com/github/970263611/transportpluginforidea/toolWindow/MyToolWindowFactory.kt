@@ -1,4 +1,4 @@
-package org.jetbrains.plugins.template.toolWindow
+package com.github.970263611.transportpluginforidea.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import org.jetbrains.plugins.template.MyBundle
-import org.jetbrains.plugins.template.services.MyProjectService
+import com.github.970263611.transportpluginforidea.MyBundle
+import com.github.970263611.transportpluginforidea.services.MyProjectService
 import javax.swing.JButton
 
 
