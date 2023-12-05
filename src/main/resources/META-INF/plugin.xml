@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.970263611.transportpluginforidea</id>
-    <name>transportPluginForIdea Template</name>
+    <id>com.dahuaboke.transport</id>
+    <name>dahua transport</name>
     <vendor>970263611</vendor>
 
     <depends>com.intellij.modules.platform</depends>
@@ -10,9 +10,13 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.dahuaboke.transport.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <applicationConfigurable parentId="tools" instance="com.dahuaboke.transport.config.TransportSearchableConfig"
+                                 id="com.dahuaboke.transport.view.config" displayName="翻译"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.dahuaboke.transport.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+        <listener class="com.dahuaboke.transport.listeners.MyApplicationActivationListener"
+                  topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
+
 </idea-plugin>
