@@ -1,9 +1,9 @@
-package com.github.970263611.transportpluginforidea.services
+package com.dahuaboke.transport.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.970263611.transportpluginforidea.MyBundle
+import com.dahuaboke.transport.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {

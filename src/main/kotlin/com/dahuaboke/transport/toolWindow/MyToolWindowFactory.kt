@@ -1,4 +1,4 @@
-package com.github.970263611.transportpluginforidea.toolWindow
+package com.dahuaboke.transport.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.github.970263611.transportpluginforidea.MyBundle
-import com.github.970263611.transportpluginforidea.services.MyProjectService
+import com.dahuaboke.transport.MyBundle
+import com.dahuaboke.transport.services.MyProjectService
 import javax.swing.JButton
 
 

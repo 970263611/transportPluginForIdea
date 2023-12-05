@@ -1,4 +1,4 @@
-package com.github.970263611.transportpluginforidea.listeners
+package com.dahuaboke.transport.listeners
 
 import com.intellij.openapi.application.ApplicationActivationListener
 import com.intellij.openapi.diagnostic.thisLogger
