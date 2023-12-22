@@ -102,7 +102,7 @@ public class AliTranslateAdapter extends TranslateAdapter {
     }
 
     public static void main(String[] args) {
-        AliTranslateAdapter translateAdapter = new AliTranslateAdapter("LTAINVUr128sJEse", "6OnkI4QugJUprIG5YuqufO3xvvHoam");
+        AliTranslateAdapter translateAdapter = new AliTranslateAdapter("", "");
         String s = translateAdapter.doTransport("i love you");
         System.out.println(s);
     }
